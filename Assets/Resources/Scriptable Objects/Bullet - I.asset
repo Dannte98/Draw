@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9fc0bdbe9c19fcb409ab5327063b2737, type: 3}
+  m_Name: Bullet - I
+  m_EditorClassIdentifier: 
+  UnloadedSprite: {fileID: 21300000, guid: 1c954768b1c2e5f49aaeea7b364ee8a1, type: 3}
+  LoadedSprite: {fileID: 21300000, guid: 32bdf4c3814da8c4f8104da0da59be64, type: 3}
+  FiredSprite: {fileID: 21300000, guid: 0ca8bfe3bd5d2f745b966ad69ca46c8d, type: 3}
+  Value: 1
+  OnFired:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 11400000}
+        m_TargetAssemblyTypeName: Bullet, Assembly-CSharp
+        m_MethodName: AddScore
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
